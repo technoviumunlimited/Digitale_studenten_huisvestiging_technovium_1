@@ -1,0 +1,64 @@
+# Blender 3.1.0 MTL File: '5c.blend'
+# www.blender.org
+
+newmtl Cellenbeton
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.498039 0.498039 0.498039
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl Default_material
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.752941 0.752941 0.752941
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl ISR_Kozijn
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.925490 0.886275 0.866667
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl ISR_Metselwerk_Zwart
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.207843 0.207843 0.207843
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_assets\5c\textures\brick_uniform_running_orange.png
+
+newmtl Kalkzandsteen_CS12
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.498039 0.498039 0.498039
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+
+newmtl i4_hout_gen
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.713726 0.607843 0.403922
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_assets\5c\textures\woods & plastics.finish carpentry.wood.pine.png

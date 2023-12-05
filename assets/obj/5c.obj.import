@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://dahthukhnabat"
+path="res://.godot/imported/5c.obj-79d36975379a92aef9611563485428da.mesh"
+
+[deps]
+
+files=["res://.godot/imported/5c.obj-79d36975379a92aef9611563485428da.mesh"]
+
+source_file="res://assets/obj/5c.obj"
+dest_files=["res://.godot/imported/5c.obj-79d36975379a92aef9611563485428da.mesh", "res://.godot/imported/5c.obj-79d36975379a92aef9611563485428da.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
