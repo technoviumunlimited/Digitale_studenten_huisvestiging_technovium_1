@@ -3,7 +3,7 @@
 [ext_resource type="Script" path="res://scripts/player.gd" id="1_nx64q"]
 
 [sub_resource type="StandardMaterial3D" id="StandardMaterial3D_235sx"]
-albedo_color = Color(0.945098, 0.333333, 0.145098, 1)
+albedo_color = Color(0.827451, 0.823529, 0.580392, 1)
 
 [sub_resource type="PlaneMesh" id="PlaneMesh_jmykj"]
 material = SubResource("StandardMaterial3D_235sx")
@@ -25,6 +25,7 @@ sky = SubResource("Sky_ceryb")
 ambient_light_color = Color(0.72549, 0.894118, 0.984314, 1)
 
 [node name="main" type="Node3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.271077, 0)
 
 [node name="floor" type="StaticBody3D" parent="."]
 
