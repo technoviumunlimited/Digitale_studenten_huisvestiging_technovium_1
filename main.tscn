@@ -1,0 +1,56 @@
+[gd_scene load_steps=9 format=3 uid="uid://b5j61sdd4lv4i"]
+
+[ext_resource type="Script" path="res://scripts/player.gd" id="1_nx64q"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_235sx"]
+albedo_color = Color(0.945098, 0.333333, 0.145098, 1)
+
+[sub_resource type="PlaneMesh" id="PlaneMesh_jmykj"]
+material = SubResource("StandardMaterial3D_235sx")
+size = Vector2(100, 100)
+
+[sub_resource type="ConvexPolygonShape3D" id="ConvexPolygonShape3D_m1ps2"]
+points = PackedVector3Array(50.7837, 0.793495, 50.7837, -50.7837, -0.793495, -50.7837, -50.7837, 0.793495, -50.7837, 50.7837, -0.793495, -50.7837, -50.7837, -0.793495, 50.7837, -50.7837, 0.793495, 50.7837, 50.7837, 0.793495, -50.7837, 50.7837, -0.793495, 50.7837)
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_s1txf"]
+
+[sub_resource type="ProceduralSkyMaterial" id="ProceduralSkyMaterial_s37c6"]
+
+[sub_resource type="Sky" id="Sky_ceryb"]
+sky_material = SubResource("ProceduralSkyMaterial_s37c6")
+
+[sub_resource type="Environment" id="Environment_tpkym"]
+background_mode = 2
+sky = SubResource("Sky_ceryb")
+ambient_light_color = Color(0.72549, 0.894118, 0.984314, 1)
+
+[node name="main" type="Node3D"]
+
+[node name="floor" type="StaticBody3D" parent="."]
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="floor"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.779568, 0)
+mesh = SubResource("PlaneMesh_jmykj")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="floor"]
+shape = SubResource("ConvexPolygonShape3D_m1ps2")
+
+[node name="player" type="CharacterBody3D" parent="."]
+script = ExtResource("1_nx64q")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.04757, 0)
+shape = SubResource("CapsuleShape3D_s1txf")
+
+[node name="head" type="Node3D" parent="player"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 3.14867, 0)
+
+[node name="Camera3D" type="Camera3D" parent="player/head"]
+
+[node name="RayCast3D" type="RayCast3D" parent="player/head"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_tpkym")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, -0.629564, 0.776948, 0, -0.776948, -0.629564, 0, 31.983, -77.0885)
