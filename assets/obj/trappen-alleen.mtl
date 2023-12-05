@@ -1,0 +1,24 @@
+# Blender 3.1.0 MTL File: 'None'
+# www.blender.org
+
+newmtl ISR_Beton_ihwg
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.749020 0.698039 0.678431
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\textures\102.png
+
+newmtl ISR_Beton_prefab
+Ns 6.000004
+Ka 1.000000 1.000000 1.000000
+Kd 0.749020 0.698039 0.678431
+Ks 1.000000 1.000000 1.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 3
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\textures\102.png
