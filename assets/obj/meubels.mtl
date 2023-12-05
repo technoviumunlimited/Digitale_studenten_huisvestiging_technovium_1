@@ -1,0 +1,148 @@
+# Blender 3.1.0 MTL File: 'meubels.blend'
+# www.blender.org
+
+newmtl 82_HAN_2persbed_overtrek
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.627451 0.603922 0.549020
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\furnishings.fabrics.stripes.4.jpg
+
+newmtl 82_HAN_bed_headbord
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.956863 0.956863 0.956863
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl 82_HAN_bed_hoeslaken
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.882353 0.882353 0.882353
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\furnishings.fabrics.canvas.white.jpg
+
+newmtl 82_HAN_bed_onderstel
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.894118 0.882353 0.854902
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\furnishings.fabrics.canvas.white.png
+
+newmtl 82_HAN_nachtkastje
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.956863 0.956863 0.956863
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl 82_HAN_nachtkastje_poten
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.956863 0.956863 0.956863
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl 82_hoekbank_kussens
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.196078 0.196078 0.196078
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\furnishings.fabrics.leather.pebble.tan.png
+
+newmtl 82_hoekbank_textiel
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.274510 0.274510 0.274510
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\furnishings.fabrics.leather.pebble.tan.png
+
+newmtl 82_zitbank_poten
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.956863 0.956863 0.956863
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+map_Kd  C:\Users\dakan\OneDrive\Documents\GitHub\Digitale_Studenten_Huisvesting_Technovium\assets\fbx\textures\metals.ornamental metals.aluminum.brushed.random.jpg
+
+newmtl Default_material
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.752941 0.752941 0.752941
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl ISR_Kunststof_wit
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.917647 0.917647 0.917647
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl fabric
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.976471 0.913725 0.843137
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl oak
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.788235 0.549020 0.345098
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1
+
+newmtl wood_oak
+Ns 200.000000
+Ka 1.000000 1.000000 1.000000
+Kd 0.788235 0.549020 0.345098
+Ks 0.000000 0.000000 0.000000
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 1

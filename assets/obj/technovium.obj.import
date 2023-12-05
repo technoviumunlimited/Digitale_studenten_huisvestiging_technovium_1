@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://e1wdg4usckbt"
+path="res://.godot/imported/technovium.obj-d6696504137485a0e0ff24bc77b8041d.mesh"
+
+[deps]
+
+files=["res://.godot/imported/technovium.obj-d6696504137485a0e0ff24bc77b8041d.mesh"]
+
+source_file="res://assets/obj/technovium.obj"
+dest_files=["res://.godot/imported/technovium.obj-d6696504137485a0e0ff24bc77b8041d.mesh", "res://.godot/imported/technovium.obj-d6696504137485a0e0ff24bc77b8041d.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false

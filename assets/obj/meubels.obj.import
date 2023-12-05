@@ -1,0 +1,22 @@
+[remap]
+
+importer="wavefront_obj"
+importer_version=1
+type="Mesh"
+uid="uid://cefetj6l6w05u"
+path="res://.godot/imported/meubels.obj-3c8ddbb8e19b9077d8bab2fb92574f74.mesh"
+
+[deps]
+
+files=["res://.godot/imported/meubels.obj-3c8ddbb8e19b9077d8bab2fb92574f74.mesh"]
+
+source_file="res://assets/obj/meubels.obj"
+dest_files=["res://.godot/imported/meubels.obj-3c8ddbb8e19b9077d8bab2fb92574f74.mesh", "res://.godot/imported/meubels.obj-3c8ddbb8e19b9077d8bab2fb92574f74.mesh"]
+
+[params]
+
+generate_tangents=true
+scale_mesh=Vector3(1, 1, 1)
+offset_mesh=Vector3(0, 0, 0)
+optimize_mesh=true
+force_disable_mesh_compression=false
